@@ -90,7 +90,6 @@ window.addEventListener('DOMContentLoaded', function() {
     // console.log(ridesDiv)
 
     let html = renderRides(ridesArray)
-    ridesDiv.insertAdjacentHTML('beforeend', `${html}`)
   })
 
   // PURPLE CODE 
@@ -119,7 +118,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
     let html = renderRides(purpleArray)
 
-    ridesDiv.insertAdjacentHTML('beforeend', `${html}`)
 
   })
 
@@ -146,7 +144,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
     let html = renderRides(xlArray)
 
-    ridesDiv.insertAdjacentHTML('beforeend', `${html}`)
 
   })
 
@@ -172,7 +169,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
     let html = renderRides(poolArray)
 
-    ridesDiv.insertAdjacentHTML('beforeend', `${html}`)
 
   })
 
@@ -198,7 +194,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
     let html = renderRides(xArray)
 
-    ridesDiv.insertAdjacentHTML('beforeend', `${html}`)
 
   })
 
